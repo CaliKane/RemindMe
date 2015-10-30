@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 29 23:34:53 2015
+
+@author: steven
+"""
+#Python version 3.4
+
+import datetime
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+
+axes = Figure().add_subplot(111)
+
+x = [1,2,3]
+
+
+plt.scatter(x,[1]*len(x), color = 'c', s = 100, marker = 's')
+plt.xlabel('Date')
+plt.title('Event Timeline')
+
+axes.yaxis.set_visible(False)
+axes.spines['right'].set_visible(False)
+axes.spines['left'].set_visible(False)
+axes.spines['top'].set_visible(False)
+axes.xaxis.set_ticks_position('bottom')
+
+axes.get_yaxis().set_ticklabels([])
+
+plt.show()
