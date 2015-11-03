@@ -1,1 +1,1 @@
-This README is helping me practice using GIT and GitHUB.
+This is a self project that aims to create an application that will allow the user to enter special events such as birthdays, anniversaries, meetings, and etc. The application will then plot those events on a timeline. It will also update the user of their events and certain time intervals prior the event. It will also eventually make suggestions for purchasing gifts based on birthdates and types of events.
